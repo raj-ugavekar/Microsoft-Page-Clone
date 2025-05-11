@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft - Cloud, Computers, Apps &amp; Gaming</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contain">
+      <div class="navbar flex justify-between items-center p-4 xl:mx-[2%]">
+        <div class="flex justify-center items-center lg:order-2">
+          <div
+            class="hamburger inline-block px-4 cursor-pointer lg:hidden"
+            onclick="openNavbar()"
+          >
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          </div>
+          <div class="search lg:hidden w-4 mr-6">
+            <img src="assets/search.svg" />
+          </div>
+        </div>
+
+        <div class="logo text-center lg:order-1 flex">
+          <div class="flex justify-center lg:justify-start lg:w-24 lg:ml-4">
+            <img class="w-[50%] lg:w-[80%]" src="assets/mslogo.png" />
+          </div>
+          <div
+            class="features absolute grid grid-cols-1 lg:static w-full text-left lg:w-auto top-0 left-0 pl-4 lg:flex lg:space-x-6 -translate-x-[900px] translate-y-14 lg:-translate-x-0 lg:-translate-y-0 bg-gray-100 lg:bg-white lg:items-center lg:text-sm"
+          >
+            <div
+              class="fitem hover:underline py-4 border-b-2 lg:py-0 lg:border-b-0 hover:underline-offset-8 cursor-pointer"
+            >
+              Microsoft 365
+            </div>
+            <div
+              class="fitem hover:underline py-4 border-b-2 lg:py-0 lg:border-b-0 hover:underline-offset-8 cursor-pointer"
+            >
+              Office
+            </div>
+            <div
+              class="fitem hover:underline py-4 border-b-2 lg:py-0 lg:border-b-0 hover:underline-offset-8 cursor-pointer"
+            >
+              Windows
+            </div>
+            <div
+              class="fitem hover:underline py-4 border-b-2 lg:py-0 lg:border-b-0 hover:underline-offset-8 cursor-pointer"
+            >
+              Surfaces
+            </div>
+            <div
+              class="fitem hover:underline py-4 border-b-2 hover:underline-offset-8 lg:py-0 lg:border-b-0 cursor-pointer"
+            >
+              About
+            </div>
+            <div
+              class="fitem hover:underline py-4 border-b-2 hover:underline-offset-8 lg:py-0 lg:border-b-0 cursor-pointer"
+            >
+              Support
+            </div>
+          </div>
+        </div>
+        <div
+          class="cart text-center lg:order-3 flex justify-center items-center"
+        >
+          <div class="search hidden lg:block mr-6 cursor-pointer lg:text-sm">
+            All Microsoft
+          </div>
+          <img
+            class="hidden lg:block w-4 mr-6 cursor-pointer"
+            src="assets/search.svg"
+          />
+          <div class="flex justify-center items-center">
+            <img
+              class="w-4 mr-6 h-4 cursor-pointer"
+              src="assets/cart icon.svg"
+            />
+            <img
+              class="w-4 mr-6 h-4 cursor-pointer"
+              src="assets/account icon.svg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="slider" class="slider flex flex-col-reverse lg:flex-row bg-[#f2f2f2] mx-2">
+        <div
+          class="left flex flex-col justify-center items-center lg:items-baseline py-12 lg:ml-24 space-y-3"
+        >
+          <h1 class="text-2xl font-semibold lg:text-4xl mx-5">
+            Surface Laptop 4
+          </h1>
+          <p class="w-3/4 mx-5 text-center lg:text-left">
+            Do it all with a perfect balance of sleek, ultra-thin design,
+            multitasking speed and improved performance
+          </p>
+          <button
+            class="text-white bg-black px-4 py-2 my-6 mx-5 font-bold hover:shadow-md hover:drop-shadow-xl"
+          >
+            Shop Now >
+          </button>
+        </div>
+        <div class="right flex justify-center">
+          <img class="lg:w-[64rem]" src="assets/ms.webp" />
+        </div>
+      </div>
+
+      <div
+        class="promo space-y-6 flex flex-wrap justify-center m-10 min-[540px]:mb-14"
+      >
+        <div class="item flex mx-4 flex-col items-center">
+          <img class="mt-6" src="assets/ic1.png" />
+          <span
+            class="font-medium hover:underline hover:underline-offset-8 cursor-pointer"
+            >Choose your Microsoft 365</span
+          >
+        </div>
+        <div class="item flex mx-4 flex-col items-center">
+          <img src="assets/ic2.webp" />
+          <span
+            class="font-medium hover:underline hover:underline-offset-8 cursor-pointer"
+            >Explore Surface devices</span
+          >
+        </div>
+        <div class="item flex mx-4 flex-col items-center">
+          <img src="assets/ic3.webp" />
+          <span
+            class="font-medium hover:underline hover:underline-offset-8 cursor-pointer"
+            >Buy XBox games</span
+          >
+        </div>
+        <div class="item flex mx-4  flex-col items-center">
+          <img src="assets/ic4.png" />
+          <span
+            class="font-medium hover:underline hover:underline-offset-8 cursor-pointer"
+            >Get Windows 11</span
+          >
+        </div>
+      </div>
+
+      <div
+        class="advertise1 grid min-[540px]:grid-cols-2 lg:grid-cols-4 gap-5 lg:mx-[5%] my-10"
+      >
+        <div
+          class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:ml-[5%] min-[540px]:mr-0 xl:relative"
+        >
+          <div class="image">
+            <img
+              class="w-[100%]"
+              src="assets/Content-Card-Microsoft-Copilot-App-3screens.avif"
+            />
+          </div>
+          <div class="content mt-5 px-6">
+            <p class="text-xl font-semibold 2xl:text-2xl">
+              Unlock your potential with Microsoft Copilot
+            </p>
+            <p class="py-3">
+              Get things done faster and unleash your creativity with the power
+              of AI anywhere you go.
+            </p>
+            <button
+              class="bg-blue-700 text-white py-2 px-3 font-semibold mb-16 xl:mb-10 size-fit hover:bg-blue-800 xl:absolute xl:bottom-0"
+            >
+              Download the Copilot app
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:mr-[5%] min-[540px]:ml-0 lg:mx-0"
+        >
+          <div class="image">
+            <img
+              class="w-[100%]"
+              src="assets/Content-Card-Microsoft-365-Lifestyle-Sandstone-Icon-Toss.avif"
+            />
+          </div>
+          <div class="content mt-5 px-6">
+            <p class="text-xl font-semibold 2xl:text-2xl">
+              Maximise the everyday with Microsoft 365
+            </p>
+            <p class="py-3">
+              Get online protection, secure cloud storage and innovative apps
+              designed to fit your needs – all in one plan.
+            </p>
+            <div class="mb-16 size-fit">
+              <button
+                class="bg-blue-700 text-white py-2 px-3 font-semibold hover:bg-blue-800"
+              >
+                For one person
+              </button>
+              <p
+                class="text-blue-700 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >
+                For up to six people >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:ml-[5%] min-[540px]:mr-0 lg:mx-0 xl:relative"
+        >
+          <div class="image">
+            <img class="w-[100%]" src="assets/gldn-XSX-CP-Xbox-Series-X.webp" />
+          </div>
+          <div class="content mt-5 px-6">
+            <p class="text-xl font-semibold 2xl:text-2xl">Xbox Series X</p>
+            <p class="py-3">The fastest, most powerful Xbox ever.</p>
+            <button
+              class="bg-blue-700 text-white py-2 px-3 mb-16 xl:mb-10 font-semibold size-fit hover:bg-blue-800 xl:absolute xl:bottom-0"
+            >
+              Shop Xbox Series X
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:mr-[5%] min-[540px]:ml-0 lg:mx-0 xl:relative"
+        >
+          <div class="image">
+            <img
+              class="w-[100%]"
+              src="assets/gldn-XSS-CP-Xbox-Series-S-Evergreen.jpg"
+            />
+          </div>
+          <div class="content mt-5 px-6">
+            <p class="text-xl font-semibold 2xl:text-2xl">Xbox Series S</p>
+            <p class="py-3">Next-gen performance in the smallest Xbox ever.</p>
+            <button
+              class="bg-blue-700 text-white py-2 px-3 mb-16 xl:mb-10 font-semibold size-fit hover:bg-blue-800 xl:absolute xl:bottom-0"
+            >
+              Shop Xbox Series S
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="promo2 mx-[2%] lg:mx-[5%] xl:mb-14 relative">
+        <div class="ad-image">
+          <img
+            class="block xl:hidden size-[100%]"
+            src="assets/Highlight-Slim-Multi-Canvas-AEM-Game-Pass-Ultimate_VP3-1083x600.avif"
+          />
+          <img
+            class="hidden xl:block xl:h-auto xl:w-full"
+            src="assets/Highlight-Slim-Multi-Canvas-AEM-Game-Pass-Ultimate_VP4-1260x600.jpg"
+          />
+        </div>
+        <div
+          class="promo-content mt-10 mx-3 md:bg-white md:shadow-md md:shadow-gray-300 md:py-10 md:px-14 md:-translate-y-20 xl:-translate-y-0 xl:absolute xl:top-12 xl:w-[35%] xl:ml-10 xl:bg-[#1a1a1a] xl:shadow-none xl:text-white"
+        >
+          <p class="font-semibold text-2xl mb-3 xl:text-3xl">
+            Xbox Game Pass Ultimate
+          </p>
+          <p class="mb-6">
+            Play new games on day one. Plus, enjoy hundreds of high-quality
+            games with friends on console and PC.
+          </p>
+          <button
+            class="bg-blue-700 text-white py-2 px-3 font-semibold mb-16 md:mb-3 size-fit hover:bg-blue-800"
+          >
+            Join Now
+          </button>
+        </div>
+      </div>
+
+      <div class="advertise3 mb-14">
+        <div
+          class="ad-heading mx-[2%] lg:mx-[5%] text-2xl font-semibold"
+        >
+          For Business
+        </div>
+        <div
+          class="advertise3 grid min-[540px]:grid-cols-2 lg:grid-cols-4 gap-5 lg:mx-[5%] mt-3 mb-10"
+        >
+          <div
+            class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:ml-[5%] min-[540px]:mr-0 lg:h-[465px] xl:relative"
+          >
+            <div class="image">
+              <img
+                class="w-[100%]"
+                src="assets/gldn-Surf-CP-SurfaceFamilyForBusiness.webp"
+              />
+            </div>
+            <div class="content mt-5 px-6">
+              <p class="text-xl font-semibold 2xl:text-2xl">
+                Surface for Business
+              </p>
+              <p class="py-3">
+                No matter what you do, there’s a Surface to help you do it.
+              </p>
+              <button
+                class="bg-blue-700 text-white py-2 px-3 font-semibold mb-16 xl:mb-10 size-fit hover:bg-blue-800 xl:absolute xl:bottom-0"
+              >
+                Show Now
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:mr-[5%] min-[540px]:ml-0 lg:mx-0 lg:h-[465px] xl:relative"
+          >
+            <div class="image">
+              <img
+                class="w-[100%]"
+                src="assets/gldn-CP-Microsoft-Teams-Commercial.webp"
+              />
+            </div>
+            <div class="content mt-5 px-6">
+              <p class="text-xl font-semibold 2xl:text-2xl">
+                Get Microsoft Teams for free
+              </p>
+              <p class="py-3">
+                Online meetings, chat and shared cloud storage – all in one
+                place.
+              </p>
+              <div class="mb-16 size-fit">
+                <button
+                  class="bg-blue-700 text-white py-2 px-3 font-semibold mb-16 xl:mb-10 size-fit hover:bg-blue-800 xl:absolute xl:bottom-0"
+                >
+                  Sign Up for Free
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:ml-[5%] min-[540px]:mr-0 lg:mx-0 lg:h-[465px] xl:relative"
+          >
+            <div class="image">
+              <img
+                class="w-[100%]"
+                src="assets/Content-Card-Microsoft-Teams-Commercial-Meeting.avif"
+              />
+            </div>
+            <div class="content mt-5 px-6">
+              <p class="text-xl font-semibold 2xl:text-2xl">
+                Get Microsoft Teams for your business
+              </p>
+              <p class="py-3">
+                Online meetings, chat, real-time collaboration, and shared cloud
+                storage – all in one place.
+              </p>
+              <button
+                class="bg-blue-700 text-white py-2 px-3 mb-16 xl:mb-10 font-semibold size-fit hover:bg-blue-800 xl:absolute xl:bottom-0 xl:mr-5"
+              >
+                Find the right plan for your business
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="bg-white shadow-md shadow-gray-300 size-[95%] mx-[2.5%] min-[540px]:mr-[5%] min-[540px]:ml-0 lg:mx-0 lg:h-[465px] xl:relative"
+          >
+            <div class="image">
+              <img
+                class="w-[100%]"
+                src="assets/Content-Card-Copilot-Commercial.avif"
+              />
+            </div>
+            <div class="content mt-5 px-6">
+              <p class="text-xl font-semibold 2xl:text-2xl">
+                Copilot for Microsoft 365
+              </p>
+              <p class="py-3">
+                Save time and focus on the things that matter most with AI in
+                Microsoft 365 for business.
+              </p>
+              <button
+                class="bg-blue-700 text-white py-2 px-3 mb-16 xl:mb-10 font-semibold size-fit hover:bg-blue-800 xl:absolute xl:bottom-0"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="handles flow-root">
+        <div class="socials mx-[5%] flex items-center space-x-5 mb-6">
+          <span class="text-base">Follow Microsoft</span>
+          <span class="size-8"
+            ><img class="" src="assets/Facebook 2x.avif" alt=""
+          /></span>
+          <span class="size-8"
+            ><img src="assets/icon-MSCOM-X-64x64.webp" alt=""
+          /></span>
+          <span class="size-8"
+            ><img src="assets/YouTube 2x.webp" alt=""
+          /></span>
+        </div>
+        <div class="back-to-top mx-[5%] float-end mb-14">
+          <button id="scrollButton"
+              class="bg-gray-300 text-black py-2 px-3 font-semibold rounded-sm size-fit cursor-pointer hover:bg-white hover:drop-shadow-md"
+            >
+              ^ Back to Top
+          </button>
+        </div>
+      </div>
+
+      <footer class="footer-container bg-gray-200 py-5">
+        <div class="footer flex my-3 mx-[2%] justify-around text-gray-600">
+          <div class="footer-contain space-y-3">
+            <p class="font-semibold">What's New</p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Surface Pro
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Surface Laptop
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Microsoft Copilot
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Microsoft 365
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Windows 11 apps
+            </p>
+          </div>
+
+          <div class="footer-contain space-y-3">
+            <p class="font-semibold">What's New</p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Surface Pro
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Surface Laptop
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Microsoft Copilot
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Microsoft 365
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Windows 11 apps
+            </p>
+          </div>
+
+          <div class="footer-contain space-y-3">
+            <p class="font-semibold">What's New</p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Surface Pro
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Surface Laptop
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Microsoft Copilot
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Microsoft 365
+            </p>
+            <p
+              class="text-xs cursor-pointer hover:underline hover:underline-offset-2"
+            >
+              Windows 11 apps
+            </p>
+          </div>
+        </div>
+        <hr class="border-t border-gray-300" />
+        <div class="text-center text-xs text-gray-600 mt-4">
+          © Microsoft 2024
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      let navBarElement = document.querySelector(".features");
+      function openNavbar() {
+        if (navBarElement.classList.contains("-translate-x-[900px]")) {
+          navBarElement.classList.add("-translate-x-0");
+          navBarElement.classList.remove("-translate-x-[900px]");
+        } else {
+          navBarElement.classList.add("-translate-x-[900px]");
+          navBarElement.classList.remove("-translate-x-0");
+        }
+      }
+
+      document.getElementById("scrollButton").addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior:"smooth"
+        });
+      });
+    </script>
+  </body>
+</html>
